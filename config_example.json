@@ -1,6 +1,6 @@
 {
-    "coin": "monero",
-    "symbol": "XMR",
+    "coin": "eurobit",
+    "symbol": "EURB",
 
     "logging": {
         "files": {
@@ -17,13 +17,13 @@
     "poolServer": {
         "enabled": true,
         "clusterForks": "auto",
-        "poolAddress": "48Y4SoUJM5L3YXBEfNQ8bFNsvTNsqcH5Rgq8RF7BwpgvTBj2xr7CmWVanaw7L4U9MnZ4AG7U6Pn1pBhfQhFyFZ1rL1efL8z",
+        "poolAddress": "Eurobit-RA57Vk6SBrzVKeC9o2zvZ9UV6RSjvatESD5xGK8c3NA8AQG864WiYQWPdT2L9X3pmR7JMhvB8VQyZey1ezJCFzCs24QR6PUiR-pool",
         "blockRefreshInterval": 1000,
         "minerTimeout": 900,
         "ports": [
             {
                 "port": 3333,
-                "difficulty": 100,
+                "difficulty": 1000,
                 "desc": "Low end hardware"
             },
             {
@@ -76,16 +76,16 @@
         "enabled": true,
         "interval": 600,
         "maxAddresses": 50,
-        "mixin": 3,
-        "transferFee": 5000000000,
-        "minPayment": 100000000000,
-        "denomination": 100000000000
+        "mixin": 1,
+        "transferFee": 100000,
+        "minPayment": 100000000,
+        "denomination": 10000000
     },
 
     "blockUnlocker": {
         "enabled": true,
         "interval": 30,
-        "depth": 60,
+        "depth": 15,
         "poolFee": 2,
         "devDonation": 0.1,
         "coreDevDonation": 0.1
@@ -98,12 +98,12 @@
         "port": 8117,
         "blocks": 30,
         "payments": 30,
-        "password": "your_password"
+        "password": "sevinsystems"
     },
 
     "daemon": {
         "host": "127.0.0.1",
-        "port": 18081
+        "port": 8081
     },
 
     "wallet": {

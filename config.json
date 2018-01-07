@@ -17,7 +17,7 @@
     "poolServer": {
         "enabled": true,
         "clusterForks": "auto",
-        "poolAddress": "Eurobit-RA57Vk6SBrzVKeC9o2zvZ9UV6RSjvatESD5xGK8c3NA8AQG864WiYQWPdT2L9X3pmR7JMhvB8VQyZey1ezJCFzCs24QR6PUiR-pool",
+        "poolAddress": "RA57Vk6SBrzVKeC9o2zvZ9UV6RSjvatESD5xGK8c3NA8AQG864WiYQWPdT2L9X3pmR7JMhvB8VQyZey1ezJCFzCs24QR6PUiR-pool",
         "blockRefreshInterval": 1000,
         "minerTimeout": 900,
         "ports": [
